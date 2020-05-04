@@ -1,0 +1,409 @@
+a:link{
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "arial", sans-serif;
+}
+
+html{
+  font-size: 10px;
+}
+
+.hamburger{
+  display: none;
+}
+
+.yelp{
+  width: 100%;
+  background-image: url(https://img1.goodfon.com/wallpaper/nbig/6/7d/kitay-shanhay-restoran-lyudi.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 590px;
+  opacity: .9;
+  padding-top: 33px;
+  margin-bottom: 50px;
+}
+
+header{
+  width: 100%;
+  clear: both;
+}
+
+header ul{
+  margin-left: 130px;
+}
+
+header li{
+  font-size: 1.4rem;
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.yelp a{
+  color: white;
+}
+
+header span{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-right: 200px;
+  float: right;
+}
+
+#signUp{
+  border: 1.5px solid white;
+  padding: 7px 16px 7px 16px;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.yelpLogo{
+  width: 12.5%;
+  margin-top: 53px;
+  margin-left: 175px;
+  margin-bottom: -30px;
+}
+
+.yelp form{
+  margin-left: 140px;
+  margin-right: 40px;
+}
+
+.yelp input{
+    padding: 5px;
+    width: 15%;
+    border-radius: 4px;
+    padding-right: 360px;
+    padding-left: 180px;
+    padding-bottom: 20px;
+    margin-bottom: -90px;
+}
+
+.yelp form img{
+  display: none;
+}
+
+.yelpMiddle a img{
+  display: none;
+}
+
+.yelpMiddle ul{
+  text-align: center;
+}
+
+.yelpMiddle li{
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-bottom: 130px;
+}
+
+.yelp h3, h4{
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: -55px;
+  font-weight: 100;
+}
+
+.yelp h3 span{
+  font-weight: bold;
+}
+
+.yelpBoston h2{
+  text-align: center;
+  color: rgb(211, 36, 40);
+  font-size: 2.2rem;
+}
+
+.yelpBoston ul{
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 9px;
+  width: 90%;
+  margin-left: 65px;
+  margin-bottom: 50px;
+}
+
+.yelpBoston li{
+  display:inline-block;
+  margin-right: 24px;
+  font-size: 1.2rem;
+}
+
+.yelpBoston a{
+  color: grey;
+}
+
+.yelpBoston img{
+  display: none;
+}
+
+.hotNew{
+  width: 100%;
+  padding-left: 210px;
+}
+
+.hotNew h3{
+  font-size: 1.6rem;
+  color: rgb(211, 36, 40);
+  padding-left: 410px;
+}
+
+.business{
+  width: 25%;
+  float: left;
+  margin-bottom: 40px;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 3px;
+  margin-left: 24px;
+}
+
+.business a{
+  color: blue;
+}
+
+.business span{
+  color: orange;
+}
+
+.business img{
+  width: 100%;
+}
+
+.business span img{
+  width: 5%;
+}
+
+.browse{
+  width: 100%;
+  background-color: rgb(245,245,245);
+  padding-left: 140px;
+  padding-top: 16px;
+  clear: both;
+}
+
+#review{
+  color: grey;
+}
+
+.browse h3{
+  font-size: 2.2rem;
+  margin-left: 400px;
+  color: rgb(211, 36, 40);
+}
+
+.browse > figure{
+  width: 15%;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding-left: 60px;
+  height: 120px;
+  border:1px solid grey;
+  border-radius: 2px;
+  padding-top:20px;
+}
+
+.browse figcaption{
+  padding-left: 14px;
+}
+
+.browse img{
+  width: 55%;
+}
+
+.browse ul{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 501px){
+
+header ul{
+  margin-left: 35px;
+}
+
+header li{
+  font-size: 1.7rem;
+  font-weight: 100;
+}
+
+header span{
+    font-size: 1.7rem;
+    padding-right: 80px;
+}
+
+.yelp img{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-bottom: -50px;
+}
+
+.yelp form{
+  margin-left: 120px;
+}
+
+.yelp input{
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+.yelpMiddle li{
+  margin-bottom: 70px;
+  font-size: 1.7rem;
+  font-weight: 100;
+}
+
+.yelp h3, h4{
+  font-size: 1.7rem;
+}
+
+.yelpBoston{
+  display: none;
+}
+
+.hotNew{
+  padding-left: 0px;
+}
+
+.hotNew h3{
+  font-size: 1.8rem;
+}
+
+.business{
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+.browse{
+  padding-left: 175px;
+  padding-top: 16px;
+}
+
+.browse h3{
+  font-size: 2.2rem;
+  margin-left: 150px;
+}
+
+.browse > figure{
+  width: 30%;
+  padding-left: 60px;
+  padding-top: 30px;
+  margin-right: 0px;
+  height: 200px;
+}
+
+.browse figcaption{
+  padding-left: 30px;
+  font-size: 1.5rem;
+}
+
+.browse img{
+  width: 65%;
+}
+}
+
+@media only screen and (max-width: 500px){
+
+
+header ul, span{
+  display: none;
+}
+
+header{
+  width: 100%;
+  background-color: red;
+  height: 80px;
+  position: fixed;
+
+}
+
+.hamburger{
+    display: block;
+    width: 10%;
+    float: left;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.yelp{
+  background-image: none;
+  height: 0px;
+}
+
+.yelp form{
+  display: none;
+}
+
+.yelpMiddle ul, h3, h4{
+  display: none;
+}
+
+.yelpLogo{
+  margin-top:-100px;
+  margin-bottom: -100px;
+  margin-right: 0%;
+  width: 60%;
+  float: left;
+  position: fixed;
+}
+
+.yelpBoston{
+  display: none;
+}
+
+.hotNew{
+  width: 100%;
+  padding-left: 0px;
+  margin-top: 150px;
+}
+
+.hotNew h3{
+  font-size: 2rem;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.business{
+  width: 100%;
+  margin-left: 0px;
+  font-size: 1.5rem;
+}
+
+.browse{
+  padding-left: 0px;
+  padding-top: 16px;
+  margin-left: 0px;
+}
+
+.browse h3{
+  margin-left: 0px;
+}
+
+.browse > figure{
+display: none;
+}
+
+.browse ul{
+  display: block;
+  margin-right: 60px;
+  margin-left: 18px;
+}
+
+.browse li{
+  font-size: 2.5rem;
+  border-bottom: 3px solid black;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 4px;
+  text-align: center;
+}
+}
