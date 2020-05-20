@@ -2,7 +2,7 @@
 
 #### live version: https://svdev-yelp.netlify.app/
 
-![image]()
+![](images/yelpScreenShot.png)
 
 
 ## Tech Used:
